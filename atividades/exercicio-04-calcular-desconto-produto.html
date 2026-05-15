@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade exercicio04CalcularDescontoProduto</title>
+</head>
+
+<body>
+    <div>
+        <label for="campoNomeProduto">Nome do produto:</label>
+        <input type="text" id="campoNomeProduto">
+    </div>
+    <div>
+        <label for="campoPreco">Digite o preço:</label>
+        <input type="text" id="campoPreco">
+    </div>
+    <div>
+        <label for="campoDesconto">Desconto:</label>
+        <select id="campoDesconto">
+            <option selected disabled>Escolha o desconto</option>
+            <option value="0.10">10%</option>
+            <option value="0.25">25%</option>
+            <option value="0.50">50%</option>
+            <option value="0.75">75%</option>
+        </select>
+    </div>
+    <div>
+        <button onclick="calcularDesconto()">Calcular</button>
+    </div>
+    <div>
+        <label for="campoResposta">Resultado:</label>
+        <textarea id="campoResposta" disabled readonly></textarea>
+    </div>
+    <script src="assets/js/exercicio-04-calcular-desconto-produto.js"></script>
+</body>
+
+</html>

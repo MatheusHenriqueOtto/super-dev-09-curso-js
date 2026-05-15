@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade exercicio05SimularSalario</title>
+</head>
+
+<body>
+    <div>
+        <label for="campoNome">Nome:</label>
+        <input type="text" id="campoNome">
+    </div>
+    <div>
+        <label for="campoSalarioAtual">Salário atual:</label>
+        <input type="text" id="campoSalarioAtual">
+    </div>
+    <div>
+        <label for="campoCargo"></label>
+        <select id="campoCargo">
+            <option selected disabled>Escolha um cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="lider">Lider de setor</option>
+            <option value="chefe">Chefe</option>
+        </select>
+    </div>
+    <div>
+        <button onclick="simularSalario()">Simular</button>
+    </div>
+    <div>
+        <label for="campoResultado"></label>
+        <textarea id="campoResultado" disabled readonly>Resultado:</textarea>
+    </div>
+    <script src="assets/js/exercicio-05-simular-salario.js"></script>
+</body>
+
+</html>
