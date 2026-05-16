@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Usuario</title>
+    <link rel="stylesheet" href="assets/css/exercicio-12-pagina-perfil-usuario.css">
+</head>
+<body>
+    <div id="card">
+        <div id="imagem-perfil"></div>
+        <div id="caixaNome">
+            <imput type="text" id="campo-nome"></imput>
+            <label for="campo-nome">Nome:</label>
+        </div>
+        <div>
+            <input type="checkbox" id="destaque">
+            <label for="destaque">Destaque</label>
+        </div>
+        
+        <div>
+            <select id="campo-selecionar-tema">
+                <option selected disabled>Selecione um tema</option>
+                <option value="tema1">Tema 1</option>
+                <option value="tema2">Tema 2</option>
+                <option value="tema3">Tema 3</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <button onclick="aplicarAlteracoes()">Aplicar</button>
+    </div>
+    <script src="assets/js/exercicio-12-pagina-perfil-usuario.js"></script>
+</body>
+</html>

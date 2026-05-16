@@ -1,0 +1,30 @@
+.caixa-padrao {
+    height: 200px;
+    width: 200px;
+}
+
+.caixa-maior {
+    height: 500px;
+    width: 500px;
+}
+
+.caixa-azul {
+    background-color: blue;
+}
+
+.caixa-preta {
+    background-color: black;
+    color: white;
+}
+
+.caixa-verde {
+    background-color: green;
+}
+
+.caixa-vermelho {
+    background-color:  red;
+}
+
+.destacar-borda {
+    border: 5px solid purple;
+}
