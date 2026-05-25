@@ -1,0 +1,96 @@
+body {
+    background-color: beige;
+}
+
+
+button {
+    background-color: rgb(97, 4, 4);
+    color: beige;
+    border: 0px;
+    border-radius: 8px;
+}
+
+select {
+    margin: 10px;
+    background-color: rgb(97, 4, 4);
+    color: beige;
+    border: 0px;
+    border-radius: 8px;
+}
+
+input {
+    background-color: rgb(255, 255, 242);
+    border-radius: 8px;
+    border-color: rgb(243, 243, 224);
+}
+
+label {
+    color: rgb(97, 4, 4);
+    font-size: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    min-height: 40vh;
+    /* Garante que o main ocupe toda a altura da tela */
+    flex-direction: column;
+    /* Opcional: empilha as divs uma embaixo da outra */
+    gap: 10px;
+}
+
+#caixa-titulo {
+    color: rgb(97, 4, 4);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.caixa-dos-cards {
+    height: auto;
+    width: auto;
+    padding: 50px;
+    background-color: rgb(224, 224, 178);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    flex-direction: row;
+}
+
+.hidden {
+    display: none
+}
+
+.caixa-cards {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 160;
+    width: 120;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.card-lanche {
+    background-color: rgb(97, 4, 4);
+    color: rgb(238, 238, 226);
+    border-color: rgb(97, 4, 4);
+}
+
+.card-bebida {
+    background-color: rgb(95, 158, 160);
+    color: rgb(238, 238, 226);
+    border-color: rgb(95, 158, 160);
+}
+
+.card-sobremesa {
+    background-color: rgb(255, 228, 225);
+    color: rgb(97, 4, 4);
+    border-color: rgb(255, 228, 225);
+}

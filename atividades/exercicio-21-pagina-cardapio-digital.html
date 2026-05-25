@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="assets/css/exercicio-21-pagina-cardapio-digital.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="caixa-titulo">
+            <h1>Cardapio Digital</h1>
+        </div>
+        <div>
+            <div>
+                <label for="campo-nome">Nome:</label>
+                <input type="text" id="campo-nome">
+            </div>
+            <div>
+                <label for="campo-preco">Preço:</label>
+                <input type="text" id="campo-preco">
+            </div>
+            <div>
+                <select name="selecao-tipo" id="selecao-tipo">
+                    <option value="" name="tipo" disabled selected>Selecione o produto</option>
+                    <option value="lanche" id="tipo-lanche" name="tipo">Lanche</option>
+                    <option value="sobremesa" id="tipo-sobremesa" name="tipo">Sobremesa</option>
+                    <option value="bebida" id="tipo-sobremesa" name="tipo">Bebida</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button onclick="adicionarAoCardapio()">Adicionar Prato</button>
+        </div>
+        <div id="caixa-dos-cards" class="hidden caixa-dos-cards">
+            <!--Adicionado no js-->
+        </div>
+    </div>
+    <script src="assets/js/exercicio-21-pagina-cardapio-digital.js"></script>
+</body>
+
+</html>

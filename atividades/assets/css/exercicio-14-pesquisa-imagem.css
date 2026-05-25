@@ -1,0 +1,27 @@
+body {
+    background-color: rosybrown; 
+}
+
+div {
+    margin-top: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+#botao-pesquisar{
+    background-color: indianred;
+}
+
+input {
+    background-color: indianred;
+    color: aliceblue;
+}
+
+.imagem {
+    height: 300px;
+    width: 800px;
+}
+
+

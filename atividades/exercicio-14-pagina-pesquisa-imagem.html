@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Pesquisa de Imagem</title>
+    <link rel="stylesheet" href="assets/css/exercicio-14-pesquisa-imagem.css">
+</head>
+
+<body>
+    <div>
+        <label for="campo-pesquisa">Pesquisa: </label>
+        <input type="text" id="campo-pesquisa">
+    </div>
+    <div>
+        <button onclick="pesquisarImagem()" id="botao-pesquisar">Pesquisar</button>
+    </div>
+    <div id="caixa-imagem" class="imagem">
+        
+    </div>
+    <div id="caixa-descricao" class="hidden">
+        <label for="descricao"></label>
+        <textarea id="descricao"  disabled readonly class="imagem">Descrição</textarea>
+    </div>
+    <div id="caixa-botao-limpar" class="hidden">
+        <button onclick="limparPesquisa()">Limpar</button>
+    </div>
+    <script src="assets/js/exercicio-14-pesquisa-imagem.js"></script>
+</body>
+
+</html>

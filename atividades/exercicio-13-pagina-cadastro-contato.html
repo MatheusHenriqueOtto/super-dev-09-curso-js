@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="assets/css/exercicio-13-pagina-cadrasto-contato.css">
+</head>
+
+<body>
+    <div>
+        <label for="campo-nome">Nome:</label>
+        <input type="text" id="campo-nome">
+    </div>
+    <div id="escolher-tipo" class="destacar-visivel">
+        <h2>Tipo de contato</h2>
+        <input type="radio" id="contato-pessoal" name="tipo-contato" value="pessoal"
+            onchange="visibilidadeCamposPessoais()">
+        <label for="contato-pessoal">Contato Pessoal</label>
+        <input type="radio" id="contato-comercial" name="tipo-contato" value="comercial"
+            onchange="visibilidadeCamposComerciais()">
+        <label for="contato-comercial">Contato Comercial</label>
+    </div>
+    <div id="campos-pessoais" class="esconder">
+        <h3>Campos Pessoais</h3>
+        <div>
+            <label for="campo-cpf">Cadastro Pessoa Fisica:</label>
+            <input type="text" id="campo-cpf">
+        </div>
+        <div>
+            <label for="campo-celular">Numero de celular:</label>
+            <input type="text" id="campo-celular">
+        </div>
+    </div>
+    <div id="campos-comerciais" class="esconder">
+        <h3>Campos Comerciais</h3>
+        <div>
+            <label for="campo-cnpj">Cadastro Nacional de Pessoa Juridica:</label>
+            <input type="text" id="campo-cnpj">
+        </div>
+        <div>
+            <label for="campo-linkedin">Linkedin:</label>
+            <input type="text" id="campo-linkedin">
+        </div>
+    </div>
+    <div>
+        <button onclick="validarCadastro()">Validar</button>
+    </div>
+    <div>
+        <label for="resultado"></label>
+        <textarea id="resultado" disabled readonly>Resultado</textarea>
+    </div>
+    <script src="assets/js/exercicio-13-pagina-cadastro-contato.js"></script>
+</body>
+
+</html>

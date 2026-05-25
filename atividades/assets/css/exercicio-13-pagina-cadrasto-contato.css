@@ -1,0 +1,22 @@
+.esconder {
+    display: none;
+}
+
+.destacar-visivel {
+    display: block;
+}
+
+#campos-pessoais {
+    background-color: aquamarine;
+    color: red;
+}
+
+#campos-comerciais {
+    background-color: chocolate;
+    color: darkblue;
+}
+
+body {
+    background-color: beige;
+    color: darkslategrey;
+}
